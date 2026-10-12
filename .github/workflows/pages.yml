@@ -1,0 +1,51 @@
+name: Publicar portfolio de edición
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Importar y verificar los archivos originales del portfolio
+        run: python .github/scripts/import-assets.py
+      - name: Guardar los videos, fuentes y portadas en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fonts trabajos videos
+          if ! git diff --cached --quiet; then
+            git commit -m "Agregar los nueve videos y recursos del portfolio"
+            git push origin HEAD:main
+          fi
+      - name: Preparar el sitio estático
+        run: |
+          mkdir -p dist
+          cp index.html styles.css script.js dist/
+          cp -r fonts trabajos videos dist/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

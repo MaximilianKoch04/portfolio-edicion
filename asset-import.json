@@ -1,0 +1,107 @@
+[
+  {
+    "path": "fonts/Determination.woff",
+    "sha256": "2587162c266cb7c9f71185d77ec0503a76a57649f495d6a15649411e1820f431",
+    "size": 2552
+  },
+  {
+    "path": "fonts/LICENSE-Ubuntu.txt",
+    "sha256": "8c216e5bca5ff8499a88378a880aa9e9c7a194b0ca3e2a5d9340c4464fd8f405",
+    "size": 206
+  },
+  {
+    "path": "fonts/UbuntuMono-Regular.ttf",
+    "sha256": "b35dd9d2131d5d83a9b87fe9ad22c6288fa3d17688d43302c14da29812417d63",
+    "size": 205748
+  },
+  {
+    "path": "trabajos/llados.jpg",
+    "sha256": "ee8ba44e8214de25d1347243ed561e5486932bd4ae7a4a837b5352f9c46d339f",
+    "size": 28732
+  },
+  {
+    "path": "trabajos/mrbeast.jpg",
+    "sha256": "c922281a21841c747bd38ecffd80a008d3d51416eefc380d3b7a54c4380298a9",
+    "size": 35388
+  },
+  {
+    "path": "trabajos/ramiro-cumbria.jpg",
+    "sha256": "d8b4157ad928789bf40d6ee7de35c2b326d1008e88963fbba443f113db979440",
+    "size": 37041
+  },
+  {
+    "path": "trabajos/union-sovietica.jpg",
+    "sha256": "4e55790349745aea5240f71bcfd878d3e44ed47a31cef9a622b8ccc7eef8cd16",
+    "size": 25374
+  },
+  {
+    "path": "trabajos/video-11.jpg",
+    "sha256": "8b40aa124a5cac9c1cbee2a859032383de759e87a270f1d2190017cb5f901857",
+    "size": 39559
+  },
+  {
+    "path": "trabajos/video-18.jpg",
+    "sha256": "f83d9dc72fed1021750cd499099db2c6311ccd98fbd04b952b88d14f165bd0d6",
+    "size": 14631
+  },
+  {
+    "path": "trabajos/video-22.jpg",
+    "sha256": "1c1384b9b95c2c2cf27adeb7578e9235ce95960393f58870187cc87d835637ef",
+    "size": 43553
+  },
+  {
+    "path": "trabajos/video-26.jpg",
+    "sha256": "c0c7835552f6e7fc870f54f78684789ee4ee6ea9678fee7bed3416b4638496a1",
+    "size": 29561
+  },
+  {
+    "path": "trabajos/video-9.jpg",
+    "sha256": "0989bca9f044dc9ecc49e621b6d7c1e75adcae7fe3c3439acebb54582591793d",
+    "size": 29200
+  },
+  {
+    "path": "videos/llados.mp4",
+    "sha256": "3510285ead2fda9db4cfa33320f26f931d199ae350ef1bb453bbf3c7e22545ec",
+    "size": 4077878
+  },
+  {
+    "path": "videos/mrbeast.mp4",
+    "sha256": "900b1024d40d547f7a0d00f5335de977fa561e48a8c673bd5d53e566253d353b",
+    "size": 1469538
+  },
+  {
+    "path": "videos/ramiro-cumbria.mp4",
+    "sha256": "5638e581d65331fa0f14b02ce56e6cf1a54cf8bb7c30002e3872b203892c509f",
+    "size": 15452634
+  },
+  {
+    "path": "videos/union-sovietica.mp4",
+    "sha256": "a2920ad1b28fbbde9c8aded7817fe94758df836c030b409204ba382075909ad7",
+    "size": 5718729
+  },
+  {
+    "path": "videos/video-11.mp4",
+    "sha256": "7679a753bf97b6ae2abec8edb82b6322c125a36dfc15683c51e85ebb12ade3e1",
+    "size": 2551981
+  },
+  {
+    "path": "videos/video-18.mp4",
+    "sha256": "1480e5c980352c425c60cb73cbe4976d2d8301a1ade4b7a61f478cfe8bba6cdb",
+    "size": 10006759
+  },
+  {
+    "path": "videos/video-22.mp4",
+    "sha256": "6a33064fb808ab2abaadee567dc223a6d0e959cbc708d45e9210ea8a68246e8c",
+    "size": 5777765
+  },
+  {
+    "path": "videos/video-26.mp4",
+    "sha256": "aeb21fa22897942362f3ec086daa952402beabc897b131849b7e93fbd987b974",
+    "size": 1748841
+  },
+  {
+    "path": "videos/video-9.mp4",
+    "sha256": "e8f786e8fbce4809719f0e303b29c77968752caa0e5c7d3a668d907f355bd623",
+    "size": 3328626
+  }
+]
