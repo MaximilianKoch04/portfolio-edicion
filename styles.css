@@ -5,3 +5,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 .work-card video{display:block;width:100%;aspect-ratio:9/16;background:#111;object-fit:contain}.video-error{padding:12px 14px;color:#aaa;font-size:1rem;line-height:1.5}.video-error a{text-decoration:underline;text-underline-offset:4px}.video-error[hidden]{display:none}
+
+.hero-identity{display:flex;align-items:center;justify-content:space-between;gap:32px}.hero-identity h1{min-width:0}.profile-photo{display:block;width:240px;height:240px;flex:0 0 240px;object-fit:cover;border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 8px #000,0 0 0 9px #393939}
+@media(min-width:601px) and (max-width:900px){.hero-identity{gap:24px}.hero-identity h1{font-size:6.8vw}.profile-photo{width:180px;height:180px;flex-basis:180px}}
+@media(max-width:600px){.hero-identity{flex-direction:column;align-items:flex-start;gap:0}.profile-photo{order:-1;width:160px;height:160px;flex-basis:auto;margin:30px 0 0}.hero-identity h1{width:100%}}
