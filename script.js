@@ -24,3 +24,6 @@ const observer = new IntersectionObserver(entries => {
   });
 }, { rootMargin: '-15% 0px -55% 0px' });
 document.querySelectorAll('main section').forEach(section => observer.observe(section));
+
+const moreWork=document.querySelector('.more-work');
+moreWork.addEventListener('toggle',()=>{if(!moreWork.open)moreWork.querySelectorAll('video').forEach(video=>video.pause());});
